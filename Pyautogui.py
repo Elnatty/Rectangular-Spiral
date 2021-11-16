@@ -10,8 +10,12 @@ time.sleep(2)
 # pyautogui.scroll(-1000)
 
 # This automatically draws a rectangular spiral.
+# distance denotes the length of the line
 distance = 200
+# This moves cusor to the exact point on the screen based on these coordinates.
 pyautogui.moveTo(386, 336, 1)
+
+# looping the spiral
 while distance > 0:
     pyautogui.dragRel(distance, 0, 1, button='left')
     distance -= 20
