@@ -1,0 +1,3 @@
+# Rectangular-Spiral
+This code draws a rectangular spiral automatically, 
+Ofc you have to get your own screen's resolution, placement etc...
